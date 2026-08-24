@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICE Ready – Apple Wallet, Digital ID y lo que no cubren</title>
+<meta name="description" content="Apple Wallet puede guardar una licencia mDL estatal o un Digital ID hecho con el pasaporte. Esto es lo que cubre, lo que no, y dónde entra ICE Ready.">
+<link rel="icon" type="image/png" href="/ice_ready_fixed.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#06080f;--surface:#0d1117;--border:#1e2a3a;--accent:#00c8ff;--text:#e8edf3;--muted:#6b7a8d;--warn:#ffb020;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;line-height:1.6;min-height:100vh;}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 48px;background:rgba(6,8,15,0.95);border-bottom:1px solid var(--border);}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:3px;color:var(--accent);text-decoration:none;}
+.nav-logo span{color:#fff;}
+.nav-back{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s;}
+.nav-back:hover{color:var(--accent);}
+.container{max-width:760px;margin:64px auto;padding:0 24px 80px;}
+.label{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:4px;color:var(--accent);text-transform:uppercase;margin-bottom:16px;}
+h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(44px,7vw,72px);color:#fff;line-height:1.02;margin-bottom:16px;}
+.lede{font-size:17px;color:var(--muted);line-height:1.75;margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid var(--border);}
+.lede strong{color:var(--text);font-weight:500;}
+.card{background:var(--surface);border:1px solid var(--border);padding:32px;margin-bottom:16px;}
+.card h2{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:2px;color:var(--accent);margin-bottom:14px;}
+.card p{font-size:15px;color:var(--muted);line-height:1.75;}
+.card p + p{margin-top:12px;}
+.highlight{color:var(--text);}
+.card.flag{border-left:3px solid var(--warn);}
+.card.flag h2{color:var(--warn);}
+ul{margin:14px 0 0 18px;}
+li{font-size:15px;color:var(--muted);line-height:1.7;margin-bottom:10px;}
+li strong{color:var(--text);font-weight:500;}
+table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px;}
+th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);vertical-align:top;}
+th{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);}
+td{color:var(--muted);}
+td:first-child{color:var(--text);width:44%;}
+.yes{color:#3ddc84;}.no{color:#ff6b6b;}
+.section-rule{margin:56px 0 24px;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:5px;text-transform:uppercase;color:var(--muted);}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.cta{display:inline-block;margin-top:20px;padding:14px 26px;border:1px solid var(--accent);color:var(--accent);font-family:'DM Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;}
+.cta:hover{background:var(--accent);color:#06080f;text-decoration:none;}
+footer{text-align:center;padding:32px 24px;border-top:1px solid var(--border);font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
+@media(max-width:640px){nav{padding:16px 20px;}td:first-child{width:38%;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/es/"><span>ICE</span> READY</a>
+  <a class="nav-back" href="/wallet.html" hreflang="en" lang="en">🌐 English</a>
+</nav>
+
+<div class="container">
+
+  <div class="label">Apple Wallet</div>
+  <h1>Tu Teléfono Puede Guardar Una ID.<br>Eso No Es Lo Mismo Que Estar Listo.</h1>
+  <p class="lede">Apple Wallet ya puede llevar una licencia o identificación estatal en algunos estados, y un Digital ID creado a partir de un pasaporte de EE. UU. Las dos cosas son reales y las dos sirven. Ninguna cubre lo que pasa cuando detienen a un familiar. <strong>Esta es la línea honesta entre una cosa y la otra.</strong></p>
+
+  <div class="card">
+    <h2>Qué Guarda Realmente Apple Wallet</h2>
+    <p>En un iPhone, en <span class="highlight">Wallet → + → Licencias de conducir e identificaciones</span>, hay dos tipos de credencial en la misma lista:</p>
+    <ul>
+      <li><strong>Una identificación estatal o licencia de conducir móvil (mDL)</strong> — emitida por el DMV de tu estado. Solo aparecen los estados participantes, y cada estado decide dónde vale.</li>
+      <li><strong>Digital ID</strong> — creada a partir de un pasaporte válido de EE. UU., siguiendo los pasos de Apple para capturar el pasaporte en la app.</li>
+    </ul>
+    <p>Las dos viven en Wallet. Las dos se presentan acercando el teléfono a un lector configurado para pedirlas.</p>
+  </div>
+
+  <div class="card flag">
+    <h2>Lo Que Apple Dice Que No Es</h2>
+    <p>El Digital ID basado en el pasaporte <span class="highlight">no es un pasaporte ni lo reemplaza.</span> La propia guía de Apple dice que no sirve para viajes internacionales ni para cruzar la frontera. Sus usos aceptados son domésticos — puntos de control de TSA en aeropuertos participantes y algunas verificaciones de identidad o de edad.</p>
+    <p>Una mDL estatal se reconoce solo donde ese estado y quien verifica acordaron aceptarla. Fuera de ahí, es la foto de una credencial.</p>
+    <p><span class="highlight">Ninguna de las dos obliga a un agente federal de inmigración a aceptarla.</span> Si alguien te dice que una identificación en el teléfono satisface a un agente de ICE o de CBP, te está diciendo algo que Apple no afirma.</p>
+  </div>
+
+  <div class="card">
+    <h2>Dos Cosas Que Wallet No Puede Hacer</h2>
+    <p><span class="highlight">1. Solo guarda credenciales que emiten sus socios.</span> Wallet no tiene formato para los documentos que de verdad deciden un caso de inmigración — un aviso I-797, un permiso de trabajo, un recibo de asilo, una green card, una visa, el acta de nacimiento de un hijo, un acta de matrimonio, el contrato con tu abogado. No hay ningún DMV emitiendo eso a Apple.</p>
+    <p><span class="highlight">2. Es una persona, en un teléfono, presente y consintiendo.</span> Una identificación de Wallet la muestra su dueño, con su propio teléfono desbloqueado. No hace nada a las 2 de la mañana cuando el teléfono está en una bolsa de pertenencias y una esposa busca el número A, el número del abogado y las actas de nacimiento de los niños.</p>
+  </div>
+
+  <div class="section-rule">Lado A Lado</div>
+
+  <table>
+    <thead><tr><th>&nbsp;</th><th>Apple Wallet ID</th><th>ICE Ready</th></tr></thead>
+    <tbody>
+      <tr><td>Licencia o identificación estatal</td><td class="yes">Sí, en estados participantes</td><td class="yes">Sí, como copia tuya</td></tr>
+      <tr><td>Pasaporte de EE. UU.</td><td class="yes">Sí, como Digital ID</td><td class="yes">Sí, como copia tuya</td></tr>
+      <tr><td>Green card, visa, EAD, I-797</td><td class="no">No</td><td class="yes">Sí</td></tr>
+      <tr><td>Actas de nacimiento y matrimonio</td><td class="no">No</td><td class="yes">Sí</td></tr>
+      <tr><td>Contacto y contrato del abogado</td><td class="no">No</td><td class="yes">Sí</td></tr>
+      <tr><td>Guiones de derechos por estado</td><td class="no">No</td><td class="yes">Sí, los 50 estados</td></tr>
+      <tr><td>Funciona sin señal</td><td>Depende del lector de quien verifica</td><td class="yes">Totalmente sin conexión</td></tr>
+      <tr><td>Exige pasaporte de EE. UU. o estado compatible</td><td class="yes">Sí — esa es la barrera</td><td class="no">No</td></tr>
+      <tr><td>Nada se sube, sin cuenta</td><td>Apple mantiene la relación de inscripción</td><td class="yes">No existe ningún servidor</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-rule">Lo Que Importa</div>
+
+  <div class="card">
+    <h2>Wallet Es Para Probar Quién Eres. ICE Ready Es Para El Día En Que Eso No Alcanza.</h2>
+    <p>Si tienes pasaporte de EE. UU. y vives en un estado compatible, pon tu identificación en Wallet. Es cómodo de verdad y no cuesta nada. <span class="highlight">No te estamos pidiendo que elijas.</span></p>
+    <p>Pero las personas para las que se hizo ICE Ready son muchas veces justo las que Wallet no puede inscribir — sin pasaporte de EE. UU., sin credencial de un estado compatible, y con documentos que a Apple nunca le importaron lo suficiente como para darles un lugar. Y ninguna credencial, digital o de papel, responde la pregunta que hace una familia después de una detención: <span class="highlight">dónde está todo, y a quién llamamos.</span></p>
+    <p>Eso es la app entera. Es gratis, no hay cuenta, y nunca se sube nada.</p>
+    <a class="cta" href="/es/#download">Descarga ICE Ready — Gratis</a>
+  </div>
+
+  <!-- Wallet pass card: hidden until the .pkpass is built and served with the
+       application/vnd.apple.pkpass MIME type. GitHub Pages cannot set that header.
+       See tools/wallet-pass/README.md. Uncomment this block once it is live.
+  <div class="card">
+    <h2>Agrega La Tarjeta De Derechos ICE Ready A Tu Wallet</h2>
+    <p>Un pase gratuito para Wallet que va junto a tu identificación: tus derechos en lenguaje claro, qué decir, y espacio para guardar a tu abogado y tus contactos de emergencia a un toque desde la pantalla bloqueada.</p>
+    <p><span class="highlight">Es una tarjeta de referencia, no una identificación.</span> No prueba quién eres y no la emite ningún gobierno. Está ahí para que las palabras que necesitas estén en tu mano justo cuando más cuesta recordarlas.</p>
+    <a class="cta" href="/passes/ice-ready-rights.pkpass">Agregar a Apple Wallet</a>
+  </div>
+
+  -->
+
+  <div class="card">
+    <h2>Una Cosa Más Que Vale La Pena Hoy</h2>
+    <p>Los tribunales han permitido repetidamente que la policía obligue a usar una cara o una huella para desbloquear un teléfono. Un código de acceso se trata de forma muy distinta. Si llevas documentos en el teléfono — en Wallet, en ICE Ready o donde sea — <a href="/es/#features">desactiva Face ID y pon un código fuerte.</a> La app te guía paso a paso en iPhone y Android.</p>
+  </div>
+
+  <div class="card">
+    <h2>Preguntas</h2>
+    <p>Escríbenos a <a href="mailto:support@iceready.app">support@iceready.app</a></p>
+    <p style="margin-top:16px;font-size:13px;">Hecho por iCyberAI LLC · <a href="https://iceready.app">iceready.app</a></p>
+  </div>
+
+</div>
+
+<footer>© 2026 iCyberAI LLC · ICE Ready · <a href="/es/">iceready.app</a></footer>
+
+</body>
+</html>

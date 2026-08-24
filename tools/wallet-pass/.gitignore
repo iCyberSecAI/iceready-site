@@ -1,0 +1,5 @@
+config.env
+dist/
+*.p12
+*.pem
+*.cer
