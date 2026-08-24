@@ -1,0 +1,53 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "PASS_TYPE_ID",
+  "teamIdentifier": "TEAM_ID",
+  "organizationName": "iCyberAI LLC",
+  "serialNumber": "ice-ready-rights-en-001",
+  "description": "ICE Ready — Know Your Rights card. Reference only, not identification.",
+  "logoText": "ICE READY",
+  "foregroundColor": "rgb(232,237,243)",
+  "backgroundColor": "rgb(6,8,15)",
+  "labelColor": "rgb(0,200,255)",
+  "sharingProhibited": false,
+  "generic": {
+    "headerFields": [
+      { "key": "kind", "label": "CARD", "value": "RIGHTS" }
+    ],
+    "primaryFields": [
+      { "key": "title", "label": "Know Your Rights", "value": "You do not have to answer." }
+    ],
+    "secondaryFields": [
+      { "key": "silence", "label": "SAY THIS", "value": "I am exercising my right to remain silent." },
+      { "key": "search", "label": "SAY THIS", "value": "I do not consent to a search." }
+    ],
+    "auxiliaryFields": [
+      { "key": "attorney", "label": "MY ATTORNEY", "value": "—" },
+      { "key": "emergency", "label": "EMERGENCY CONTACT", "value": "—" }
+    ],
+    "backFields": [
+      { "key": "notid", "label": "This is not identification",
+        "value": "This card is a reference. It is not issued by any government, it does not prove who you are, and it does not establish immigration status or citizenship. Carry your real documents and know where they are." },
+      { "key": "rights", "label": "At the door",
+        "value": "You do not have to open the door. Ask the officer to slide any warrant under the door. A warrant must be signed by a judge and must name your address. An ICE administrative form (I-200 or I-205) signed by an ICE officer is not a judicial warrant and does not authorize entry." },
+      { "key": "stopped", "label": "If you are stopped",
+        "value": "Stay calm. Do not run. Do not lie and do not show false documents. You may say: I am exercising my right to remain silent. I want to speak to a lawyer. Do not sign anything you do not understand or that you have not shown to a lawyer." },
+      { "key": "phone", "label": "Your phone",
+        "value": "Turn off Face ID and fingerprint unlock and set a strong passcode. Courts have repeatedly allowed police to compel a face or a finger. A passcode is treated very differently." },
+      { "key": "family", "label": "For your family",
+        "value": "Make sure someone else knows your A-number, your attorney's name and number, and where your documents are. A plan that only lives in your head does not survive a detention." },
+      { "key": "app", "label": "Get the app",
+        "value": "ICE Ready is free, works offline, requires no account, and never uploads anything. iceready.app" },
+      { "key": "legal", "label": "Not legal advice",
+        "value": "This card is general information, not legal advice, and does not create an attorney-client relationship. Laws differ by state and change over time. Talk to an immigration attorney about your situation." }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "https://iceready.app/",
+      "messageEncoding": "iso-8859-1",
+      "altText": "iceready.app"
+    }
+  ]
+}
